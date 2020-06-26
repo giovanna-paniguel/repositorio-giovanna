@@ -1,0 +1,479 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #181818;
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 12pt;
+		font-weight: 200;
+		color: #FFF;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	a
+	{
+		color: #000;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+	}
+	
+/*********************************************************************************/
+/* Imagem                                                                        */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+/*********************************************************************************/
+/* Botões                                                                        */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		background: #000;
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #fff;
+	}
+	
+	.button-alt
+	{
+		padding: 1em 2em;
+		border-color: rgba(0,0,0,.8);
+	}
+	
+/*********************************************************************************/
+/* Caixas                                                                        */
+/*********************************************************************************/
+
+	.caixaA,
+	.caixaB,
+	.caixaC
+	{
+		width: 384px;
+	}
+
+	.caixaA,
+	.caixaB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.caixaC
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+/*********************************************************************************/
+/* Dicas - Caixas                                                                */
+/*********************************************************************************/
+
+	#divCaixas
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #FFF;
+	}
+
+/*********************************************************************************/
+/* Cabeçalho                                                                     */
+/*********************************************************************************/
+
+	#divCabecalho
+	{
+		position: relative;
+		padding: 5em 0em 0em 0em;
+		background-size: cover;
+	}
+
+	#cabecalho
+	{
+		position: relative;
+		padding: 5em 0em 10em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top: 3.6em;
+		left: 0;
+	}
+	
+	#logo h1
+	{
+		font-size: 2.6em;
+		color: #79C255;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,1);
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		top: 4.5em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+		padding: 0;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: rgba(255,255,255,0.80);
+	}
+	
+	#menu .active a
+	{
+		background: #000;
+		border-radius: 6px;
+		color: rgba(255,255,255,1);
+		color: #fff;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner-wrapper
+	{
+		padding: 5em 0em;
+		background: rgba(0,0,0,.8);
+	}
+
+	#banner
+	{
+		text-align: center;
+	}
+	
+	#banner .title h2
+	{
+		font-size: 4em;
+	}
+	
+	#banner .title .byline
+	{
+		font-size: 2em;
+	}
+	
+	#banner .button
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+	
+	.banner
+	{
+		margin-bottom: 5em;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#copyright p
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.3);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.6);
+	}
+
+	#copyright i
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.3);
+	}
+
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		position: relative;
+		padding: 7em 0em 7em 0em;
+		background: #000;
+		background-size: cover;
+		text-align: center;
+	}
+	
+	#welcome .container
+	{
+		width: 1000px;
+		padding: 0px 100px;
+		color: rgba(255,255,255,0.8);
+	}
+	
+	#welcome a
+	{
+		color: rgba(255,255,255,1);
+	}
+	
+	#welcome .button
+	{
+		background: #FFF;
+		color: #3f0900;
+	}
+
+
+/*********************************************************************************/
+/* Extra                                                                         */
+/*********************************************************************************/
+
+	#three-column
+	{
+		text-align: center;
+		color: rgba(0,0,0,0.6);
+	}
+
+	#three-column .fa
+	{
+		display: block;
+		padding: 1em 0em;
+		color: rgba(0,0,0,1);
+		font-size: 2em;
+	}
+	
+	#three-column .title h2
+	{
+		font-weight: bold;
+		color: rgba(0,0,0,0.8);
+	}
+
+	#three-column .title .byline
+	{
+		text-align: center;
+		color: rgba(0,0,0,.5);
+	}
+
+/*********************************************************************************/
+/* Contato                                                                       */
+/*********************************************************************************/
+
+#contato
+{
+	position: relative;
+	padding: 5em 0em 7em 0em;
+	background: #FFF;
+	color: #3f3f3f;
+}
+
+.input
+{
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.65;
+}
+
+#sobrenos
+{
+	position: relative;
+	padding: 5em 0em 7em 0em;
+	background: #FFF;
+	color: #3f3f3f;
+	text-align: center;
+}
+
+/*********************************************************************************/
+/* Dicas                                                                         */
+/*********************************************************************************/
+
+.galeria .image {
+	background: #fff;
+	padding: 1rem;
+}
+
+.galeria
+{
+	padding-left: 175px;
+}
+
+/*********************************************************************************/
+/* Direita e Esquerda                                                            */
+/*********************************************************************************/
+
+.image {
+	border-radius: 2px;
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+
+	.image img {
+		border-radius: 2px;
+		display: block;
+	}
+
+	.image.left, .image.right {
+		max-width: 40%;
+	}
+
+		.image.left img, .image.right img {
+			width: 100%;
+		}
+
+	.image.left {
+		float: left;
+		margin: 0 1.5rem 1rem 0;
+		top: 0.25rem;
+	}
+
+	.image.right {
+		float: right;
+		margin: 0 0 1rem 1.5rem;
+		top: 0.25rem;
+	}
+
+/*********************************************************************************/
+/* Div Branca                                                                    */
+/*********************************************************************************/
+
+.divBranca
+{
+	position: relative;
+	padding: 5em 0em 7em 0em;
+	background: #FFF;
+	color: black;
+}
+
+/*********************************************************************************/
+/* Div Login                                                                     */
+/*********************************************************************************/
+
+.divLogin
+{
+	position: relative;
+	padding: 5em 0em 7em 0em;
+	background: #FFF;
+	color: black;
+	align-items: center;
+	text-align: center;
+}
+
+/*********************************************************************************/
+/* Div Chart                                                                     */
+/*********************************************************************************/
+
+.divChart
+{
+	position: relative;
+	background: #FFF;
+	color: black;
+	align-items: center;
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+.divChart1
+{
+	position: relative;
+	background: #FFF;
+	color: black;
+	align-items: center;
+	text-align: center;
+	width: 50%;
+	float: right;
+}
